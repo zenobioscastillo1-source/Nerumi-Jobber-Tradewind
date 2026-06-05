@@ -109,4 +109,11 @@ priorities in `knowledge/qualification_criteria.md`.
 - **Google Sheets read quota (60 reads/min/user).** Each `log_to_sheet.py` call does a few bootstrap
   reads, so logging a large batch in a tight burst can trip a `429 RATE_LIMIT_EXCEEDED`. Normal layer
   runs are well under it; if you batch-log many rows fast, pace the calls or back off and retry on 429
-  (the `.tmp/demo_scoring.py` harness does this). It is a rate limit, not a logic error.
+  (the `demo/scoring.py` / `demo/full.py` harnesses do this). It is a rate limit, not a logic error.
+- **A service we don't offer can still score `hot`.** The value signal rewards keywords like
+  *install / patio / retaining wall* (`HIGH_VALUE_KEYWORDS`) but does **not** cross-check
+  `knowledge/services.md`'s *Explicitly NOT offered* list — so a hardscaping/patio lead can land `hot`
+  (seen in the demo). Scoring measures *value/fit*, not *can-we-do-it*. Until a services-offered check
+  exists, the agent should down-rank or flag a lead for a non-offered service and keep any follow-up
+  **claim-light** (engage / qualify, but never promise work we don't do). Candidate fix: a new signal
+  that reads the offered/not-offered list from `services.md`.

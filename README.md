@@ -124,6 +124,7 @@ Identical input; the only thing that moved the draft from "escalate everything" 
 - **[workflows/](workflows/)** — the step-by-step SOPs: `ingest_and_surface.md` (Layer 1), `draft_and_propose.md` (Layer 2), `score_and_prioritize.md` (Score & Prioritize).
 - **[tools/](tools/)** — the deterministic Python (Jobber reads, Sheet I/O, hygiene rules, the grounding gate, cleanup proposals, lead scoring).
 - **[knowledge/](knowledge/)** — the owner-confirmed source of truth (currently GreenLeaf *sample* data).
+- **[demo/](demo/)** — a runnable demo: `python demo/full.py` resets the Sheet and runs the whole read-only pipeline (ingest · hygiene · score · draft · propose) over synthetic GreenLeaf data. See [demo/README.md](demo/README.md).
 - Secrets (`.env`, `credentials.json`, `*_token.json`) are **gitignored and never committed**; copy `.env.example` to `.env` and supply your own.
 
 ## License

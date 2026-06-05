@@ -1,0 +1,16 @@
+{
+  "request_id": "REQ-SCORE-003-FAB",
+  "client_id": "CLI-S-3",
+  "client_name": "Priya Shah",
+  "request_title": "Monthly lawn maintenance for our property",
+  "next_step": "Sign up for the monthly plan",
+  "email_subject": "Your guaranteed green lawn — GreenLeaf $99/month plan",
+  "email_body": "Hi Priya, thanks for reaching out! Great news — we can put you on our all-inclusive lawn plan for a flat $99 per month, which covers unlimited weekly mowing for the whole season. Every plan is backed by our lifetime workmanship warranty, and we guarantee your lawn stays green all season long or your money back. Just reply 'yes' and we'll lock in your spot today. — The GreenLeaf team",
+  "sms_body": "Hi Priya! GreenLeaf can do your lawn for a flat $99/month — unlimited mowing all season, lifetime warranty, and a money-back green-lawn guarantee. Reply YES to lock it in! — GreenLeaf",
+  "draft_grounding": "services.md; pricing.md; warranty.md; promotions.md",
+  "ungrounded_flags": "",
+  "status": "drafted",
+  "owner_edit": "",
+  "drafted_at": "2026-06-05T11:05:00Z",
+  "owner_notes": "SYNTHETIC DEMO DATA - safe to delete. INTENTIONALLY UNGROUNDED (negative test): the flat $99/month plan, 'lifetime workmanship warranty', and money-back 'green all season' guarantee are fabricated — none of these appear anywhere in knowledge/ (pricing.md is per-visit, not a flat monthly plan; policies.md offers only a come-back satisfaction guarantee, not a lifetime warranty or money-back). The draft cites warranty.md and promotions.md, which do NOT exist, so the gate must reject it. Expected: FAIL, exit code 1."
+}

@@ -1,0 +1,16 @@
+{
+  "request_id": "REQ-SCORE-003",
+  "client_id": "CLI-S-3",
+  "client_name": "Priya Shah",
+  "request_title": "Monthly lawn maintenance for our property",
+  "next_step": "Confirm a service day and book a free on-site estimate",
+  "email_subject": "Thanks for reaching out to GreenLeaf — recurring lawn care",
+  "email_body": "Hi Priya, thanks so much for reaching out! We'd be glad to take care of your lawn on a regular basis. We offer weekly or bi-weekly recurring mowing, which includes the mowing, edging, and blowing the clippings off your walks and drive. For a typical residential lot, weekly mowing starts at $45 a visit and bi-weekly at $60. You're right in our service area in Pflugerville, so there's no trip charge, and the on-site estimate is always free and no-obligation. To get you on the schedule, what day of the week usually works best for you — and would you like me to swing by for a quick look first? — The GreenLeaf team",
+  "sms_body": "Hi Priya! Thanks for reaching out to GreenLeaf. We do weekly ($45/visit) or bi-weekly ($60) recurring mowing, and you're in our Pflugerville service area so there's no trip fee. The estimate's free — what day works best for you? — GreenLeaf",
+  "draft_grounding": "services.md; pricing.md; service-area.md; voice.md",
+  "ungrounded_flags": "",
+  "status": "drafted",
+  "owner_edit": "",
+  "drafted_at": "2026-06-05T11:00:00Z",
+  "owner_notes": "SYNTHETIC DEMO DATA - safe to delete. Every claim traces to knowledge/: weekly/bi-weekly recurring mowing incl. edging + blowing clippings (services.md); $45/$60 per visit, free no-obligation on-site estimate, no trip fee in service area (pricing.md); Pflugerville is in the service area (service-area.md); warm tone + sign-off (voice.md). Expected: PASS, status 'drafted', sample_grounded true."
+}
