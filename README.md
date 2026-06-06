@@ -7,10 +7,10 @@
   <img src="https://img.shields.io/badge/Read--only%20layers-built%20%C2%B7%20read%20%C2%B7%20score%20%C2%B7%20draft-22c55e?style=flat-square" alt="Read-only layers built: read, score, draft">
   <img src="https://img.shields.io/badge/Layer%203%20(execution)-planned-f59e0b?style=flat-square" alt="Layer 3 execution planned">
   <img src="https://img.shields.io/badge/validated%20on-sandbox%20%2B%20sample-38bdf8?style=flat-square" alt="Validated on sandbox and sample data">
-  <img src="https://img.shields.io/badge/access-private%20%C2%B7%20Nerumi%20IP-8b5cf6?style=flat-square" alt="Private — Nerumi IP">
+  <img src="https://img.shields.io/badge/access-private%20%C2%B7%20Zenobios%20Castillo-8b5cf6?style=flat-square" alt="Private — Zenobios Castillo">
 </p>
 
-> **Private / internal.** This repository is Nerumi IP and must remain private.
+> **Private / internal.** This repository is the private IP of Zenobios Castillo and must remain private.
 
 Home-services businesses — plumbers, landscapers, fencing companies — run on **Jobber**, a CRM whose
 funnel is *Request → Quote → Job → Invoice*. Their two recurring headaches: inbound leads slip through
@@ -130,4 +130,4 @@ Identical input; the only thing that moved the draft from "escalate everything" 
 
 ## License
 
-Proprietary — Nerumi internal. Not for distribution.
+Proprietary — © Zenobios Castillo. Not for distribution.
